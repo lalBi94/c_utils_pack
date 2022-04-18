@@ -9,5 +9,6 @@ int isMultipleOf(int number, int base);
 int isPair(int number);  
 int delta(int a, int b, int c);
 int howMainSolutionFor(int delta);
+int sumOf(char* calcul);
 
 #endif
