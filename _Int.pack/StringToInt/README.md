@@ -20,7 +20,7 @@ printf("Convert number is -> %d", stoi(chain_number));
 ```
 
 # EXIT 
-Return a Integer number (represent the String number).
+Return a Integer number (represent the String number) <br/>
 A wrong execution return NULL :)
 
 # CREDIT
