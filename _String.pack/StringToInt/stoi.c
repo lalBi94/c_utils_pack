@@ -1,16 +1,22 @@
 #include "stoi.h"
 
 int core(int* array, int size){
-    int number_int = 0, k = 1;
+    if(array != NULL){
+        int number_int = 0, k = 1;
 
-    while(size >= 0){
-        number_int += array[size]*k;
+        while(size >= 0){
+            number_int += array[size]*k;
 
-        k *= 10;
-        size--;
+            k *= 10;
+            size--;
+        }
+
+        return number_int;
+    } else{
+        return NULL;
     }
 
-    return number_int;
+    return NULL;
 }
 
 int stoi(char* number_char){
@@ -38,5 +44,11 @@ int stoi(char* number_char){
     }
     int f = core(pattern, i-1);
 
-    return f;
+    if(f != NULL){
+        return f;
+    } else{
+        return NULL;
+    }
+
+    return NULL;
 }
