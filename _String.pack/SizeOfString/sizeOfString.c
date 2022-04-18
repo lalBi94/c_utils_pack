@@ -1,10 +1,3 @@
-/*
-    *Discord: Bilaal#7175
-    *Discord_ID: 704759845844287618
-    *GitHub: https://github.com/lalBi94
-    *Paypal Donate: paypal.me/mavenaudits
-*/
-
 #include "sizeOfString.h"
 
 int sizeOfString(char* chain){
