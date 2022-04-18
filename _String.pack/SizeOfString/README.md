@@ -6,7 +6,7 @@ int sizeOfString(char* chain)                                            <-- Car
 ```
 
 # EXIT  
-Return a Integer number without '\0'.
+Return a Integer number without '\0'.<br/>
 A wrong execution return NULL :)
 
 # CREDIT
