@@ -4,7 +4,9 @@ USAGE FUNCTION :<br/>
 stoi(char* string_chain)                                      <-- String chain number is waiting 
 ```
 # Differents usages examples :
+```
 char* chain_number = "3434";
+```
 
 1. 
 ```
