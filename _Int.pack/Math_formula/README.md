@@ -3,7 +3,7 @@ USAGE FUNCTION :<br/>
 ```
 int squareOf(int number);                                                  <-- int Number is waiting 
 ```
-# squareOf() EXIT 
+squareOf() EXIT 
 Return the square of x.
 A wrong execution return NULL :)
 
@@ -12,7 +12,7 @@ USAGE FUNCTION :<br/>
 ```
 int unitsOf(int number, int position);                                     <-- int Number and the swear position of units is waiting
 ```
-# unitsOf() EXIT 
+unitsOf() EXIT 
 Return the units position whos swearing. unitsOf(1234, 3) = 2;
 A wrong execution return NULL :)
 
@@ -21,7 +21,7 @@ USAGE FUNCTION :<br/>
 ```
 int isMultipleOf(int number, int base);                                    <-- int Number and the swear position of units is waiting
 ```
-# isMultipleOf() EXIT 
+isMultipleOf() EXIT 
 Return 1 if x is a multiple of y;
 Return 0 if x is not a multiple of y;
 A wrong execution return NULL :)
