@@ -2,8 +2,7 @@
 USAGE FUNCTION :<br/>
 ```
 int squareOf(int number);                                                  <-- int Number is waiting 
-```
-<br/>
+``` <br/>
 Return the square of x.
 A wrong execution return NULL :)
 
