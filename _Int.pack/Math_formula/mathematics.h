@@ -6,4 +6,6 @@
 int squareOf(int number); 
 int unitsOf(int number, int position); 
 int isMultipleOf(int number, int base); 
+int isPair(int number);  
+
 #endif
