@@ -4,8 +4,8 @@ USAGE FUNCTION :<br/>
 int squareOf(int number);                                                  <-- int Number is waiting 
 ``` 
 <br/>
-Return the square of x.
-A wrong execution return NULL :)
+Return the square of x.<br/>
+A wrong execution return NULL :)<br/>
 
 # unitsOf()
 USAGE FUNCTION :<br/>
@@ -13,8 +13,8 @@ USAGE FUNCTION :<br/>
 int unitsOf(int number, int position);                                     <-- int Number and the swear position of units is waiting
 ```
 
-Return the units position whos swearing. unitsOf(1234, 3) = 2;
-A wrong execution return NULL :)
+Return the units position whos swearing. unitsOf(1234, 3) = 2;<br/>
+A wrong execution return NULL :)<br/>
 
 # isMultipleOf()
 USAGE FUNCTION :<br/>
@@ -22,10 +22,9 @@ USAGE FUNCTION :<br/>
 int isMultipleOf(int number, int base);                                    <-- int Number and the swear position of units is waiting
 ```
 <br/>
-Return 1 if x is a multiple of y;
-Return 0 if x is not a multiple of y;
-A wrong execution return NULL :)
-
+Return 1 if x is a multiple of y;<br/>
+Return 0 if x is not a multiple of y;<br/>
+A wrong execution return NULL :)<br/>
 
 # CREDIT
     *Description : More simple redefinition of atoi()
