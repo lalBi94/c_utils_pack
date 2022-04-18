@@ -12,7 +12,7 @@ USAGE FUNCTION :<br/>
 ```
 int unitsOf(int number, int position);                                     <-- int Number and the swear position of units is waiting
 ```
-<br/>
+
 Return the units position whos swearing. unitsOf(1234, 3) = 2;
 A wrong execution return NULL :)
 
