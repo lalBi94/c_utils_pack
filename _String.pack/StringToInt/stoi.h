@@ -5,6 +5,5 @@
 
 int core(int* array, int size);
 int stoi(char* number);
-int main();
 
 #endif

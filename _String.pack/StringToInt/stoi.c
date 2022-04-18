@@ -10,7 +10,7 @@ int core(int* array, int size){
             k *= 10;
             size--;
         }
-
+        
         return number_int;
     } else{
         return NULL;
