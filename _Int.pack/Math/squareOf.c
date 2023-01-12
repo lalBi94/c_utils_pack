@@ -1,11 +1,11 @@
 #include "mathematics.h"
 
 int squareOf(int number){
-    if(number != NULL){
+    if(number != -1){
         return number*number;
     } else{
-        return NULL;
+        return -1;
     }
 
-    return NULL;
+    return -1;
 }
