@@ -1,7 +1,7 @@
 #include "mathematics.h"
 
 int unitsOf(int number, int position){
-    if(number != NULL && position != NULL){
+    if(number != NULL && position != -1){
         int i = 0, m = 10, k = 1, current;
         for(; i != position; i++){
             current = number%m/k;
@@ -13,8 +13,8 @@ int unitsOf(int number, int position){
 
         return current;
     } else{
-        return NULL;
+        return -1;
     }
 
-    return NULL;
+    return -1;
 }
